@@ -1,12 +1,53 @@
+.container {
+    height: 100vh;
+}
 
-/* 
+.top-box {
+    border: 0px solid black;
+    background-color: #000000;
+    height: 10rem;
+    width: 1.5rem;
+    margin: 0 auto;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.lights-container {
+    border: 0px solid black;
+    width: 10rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 3%;
+}
 
-*/
+.lights-container div {
+    border: 0px solid black;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 0.3rem;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.light-on {
+    box-shadow: 0px 0px 50px 20px rgba(219, 241, 190);
+}
+
+.boton {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
